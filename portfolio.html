@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Shadow</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .intro-text {
+            font-size: 1.5em; /* Ajusta el tamaño según tus preferencias */
+            font-weight: bold; /* Opcional: hace el texto más destacado */
+            margin-top: 10px; /* Opcional: añade un margen superior */
+        }
+
+        /* Estilo específico para las imágenes en la sección de portfolio */
+        .portfolio-image {
+            max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+            height: auto;
+            margin: 20px 0; /* Margen superior e inferior */
+            border: 5px solid #999; /* Cuadro gris alrededor de la imagen */
+            border-radius: 10px; /* Esquinas redondeadas */
+        }
+
+        /* Estilo específico para el contenedor de imágenes y texto */
+        .portfolio-content {
+            max-width: 80%; /* Ajusta el tamaño máximo del contenedor */
+            margin: 20px auto; /* Centra el contenedor horizontalmente */
+            padding: 20px; /* Espaciado interno */
+            border: 5px solid #999; /* Cuadro gris alrededor del contenedor */
+            border-radius: 10px; /* Esquinas redondeadas */
+            background-color: #eee; /* Fondo gris claro para el contenedor */
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <h1>Portfolio de Shadow</h1>
+                <nav>
+                    <ul>
+                        <li><a href="Index.html">Inicio</a></li>
+                        <li><a href="proyectos.html">Proyectos</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="Index.html#precios">Precios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="youtube.html">YouTube</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="portfolio">
+            <div class="container">
+                <h2>Bienvenido a mi Portfolio</h2>
+                <p class="intro-text">Aquí se mostrarán ejemplos de trabajos y proyectos realizados.</p>
+                
+                <!-- Imagen 1 en la sección de portfolio -->
+                <div class="portfolio-content">
+                    <img src="imagenes/mob-custom.png" alt="Ejemplo de trabajo" class="portfolio-image">
+                    <p>Este es un mob custom hecho por mí, tiene más vida que los demás y pega más fuerte.
+                    Puedo hacerlo con todos los mobs y también con modelos 3D, configurado con un plugin
+                    ya existente y también con ConditionalEvents para algunas configuraciones específicas.</p>
+                </div>
+
+                <!-- Imagen 2 en la sección de portfolio -->
+                <div class="portfolio-content">
+                    <img src="imagenes/zona-afk.png" alt="Zona AFK" class="portfolio-image">
+                    <p>Este es un área designada para jugadores que están inactivos. Se puede configurar para que
+                    se adapte a diferentes escenarios, proporcionando una experiencia personalizada para los usuarios.</p>
+                </div>
+
+                <!-- Imagen 3 en la sección de portfolio -->
+                <div class="portfolio-content">
+                    <img src="imagenes/proteccion.png" alt="Protección" class="portfolio-image">
+                    <p>Esta imagen muestra un sistema de protección que implementé. Es útil para proteger áreas
+                    específicas y puede ser configurado para ofrecer diferentes niveles de seguridad según las necesidades.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 ShadowDev</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
